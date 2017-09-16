@@ -11,7 +11,9 @@ The contents of http://www.pythonchallenge.com/pc/def/banner.p are in the file
 """
 import pickle  # 'Peak hell' sounds like pickle
 
-with open('banner.p', 'rb') as f:
+FILENAME = 'resources/banner.p'
+
+with open(FILENAME, 'rb') as f:
     # 'peak hell' sounds like pickle:
     unpickled_list = pickle.load(f)
 

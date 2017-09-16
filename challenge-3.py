@@ -9,7 +9,7 @@ use regex?
 """
 import re
 
-INPUT_FILE = 'text-ch-3.txt'
+INPUT_FILE = 'resources/text-ch-3.txt'
 # Look for exactly three uppercase letters surrounding a lowercase letter
 PATTERN = '[a-z]+[A-Z]{3}([a-z]{1})[A-Z]{3}[a-z]+'
 

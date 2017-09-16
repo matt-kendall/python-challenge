@@ -9,7 +9,7 @@ put these in the file text-ch-2.txt) and this comment:
 'find rare characters in the mess below:'
 """
 
-INPUT_FILE = 'text-ch-2.txt'
+INPUT_FILE = 'resources/text-ch-2.txt'
 
 # Determine the 'rare' letters:
 frequencies = {}
