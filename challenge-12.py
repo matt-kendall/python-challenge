@@ -5,6 +5,9 @@ The page title is 'dealing evil' and the image is of someone dealing a pack
 of cards into five piles. The image filename is 'evil1.jpg' - 'evil2.jpg' is an
 image containing the words 'not jpg - _.gfx'. 'evil2.gfx' downloads a binary
 file of no known file type.
+
+Note that following the jpegs to 'evil4.jpg' does not contain an image but the
+text, 'Bert is evil! go back!'.
 """
 from enum import Enum
 
